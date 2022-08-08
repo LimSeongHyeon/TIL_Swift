@@ -11,7 +11,6 @@
 		0439569F28A163E9009E1984 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439569E28A163E9009E1984 /* ContentView.swift */; };
 		043956A128A163EB009E1984 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 043956A028A163EB009E1984 /* Assets.xcassets */; };
 		043956A428A163EB009E1984 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 043956A328A163EB009E1984 /* Preview Assets.xcassets */; };
-		043956AE28A16516009E1984 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 043956AD28A16516009E1984 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,7 +19,6 @@
 		0439569E28A163E9009E1984 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		043956A028A163EB009E1984 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		043956A328A163EB009E1984 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		043956AD28A16516009E1984 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +56,6 @@
 				0439569E28A163E9009E1984 /* ContentView.swift */,
 				043956A028A163EB009E1984 /* Assets.xcassets */,
 				043956A228A163EB009E1984 /* Preview Content */,
-				043956AD28A16516009E1984 /* README.md */,
 			);
 			path = TIL;
 			sourceTree = "<group>";
@@ -136,7 +133,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				043956AE28A16516009E1984 /* README.md in Resources */,
 				043956A428A163EB009E1984 /* Preview Assets.xcassets in Resources */,
 				043956A128A163EB009E1984 /* Assets.xcassets in Resources */,
 			);
