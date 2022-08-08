@@ -15,6 +15,6 @@
 <br/>
 
 ## 참조
-- [UI Representable : Using Swift UIKit](https://ally10.tistory.com/43, "google link")
-
+- [UI Representable : Using Swift UIKit](https://ally10.tistory.com/43, "UI Representable")
+- [RichTextView : Example](https://iosexample.com/ios-text-view-uiview-that-properly-displays-latex-and-youtube-vimeo-links/, "RichTextView : Example")
 
