@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0438115B28D8249A00D0348A /* PickerUsage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0438115A28D8249A00D0348A /* PickerUsage.swift */; };
 		0439569D28A163E9009E1984 /* TILApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439569C28A163E9009E1984 /* TILApp.swift */; };
 		0439569F28A163E9009E1984 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439569E28A163E9009E1984 /* ContentView.swift */; };
 		043956A128A163EB009E1984 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 043956A028A163EB009E1984 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0438115A28D8249A00D0348A /* PickerUsage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerUsage.swift; sourceTree = "<group>"; };
 		0439569928A163E9009E1984 /* TIL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TIL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0439569C28A163E9009E1984 /* TILApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TILApp.swift; sourceTree = "<group>"; };
 		0439569E28A163E9009E1984 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -36,6 +38,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0438115928D8247600D0348A /* SimpleUsage_View */ = {
+			isa = PBXGroup;
+			children = (
+				0438115A28D8249A00D0348A /* PickerUsage.swift */,
+			);
+			path = SimpleUsage_View;
+			sourceTree = "<group>";
+		};
 		0439569028A163E9009E1984 = {
 			isa = PBXGroup;
 			children = (
@@ -55,6 +65,7 @@
 		0439569B28A163E9009E1984 /* TIL */ = {
 			isa = PBXGroup;
 			children = (
+				0438115928D8247600D0348A /* SimpleUsage_View */,
 				043956AA28A16499009E1984 /* References */,
 				043956B428A16D77009E1984 /* Testing */,
 				0439569C28A163E9009E1984 /* TILApp.swift */,
@@ -167,6 +178,7 @@
 				043956B328A16D6C009E1984 /* LatexView.swift in Sources */,
 				0439569F28A163E9009E1984 /* ContentView.swift in Sources */,
 				0439569D28A163E9009E1984 /* TILApp.swift in Sources */,
+				0438115B28D8249A00D0348A /* PickerUsage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
