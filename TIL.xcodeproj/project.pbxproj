@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		042C4B3928EE854E0039021A /* GPSMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042C4B3828EE854E0039021A /* GPSMapView.swift */; };
 		0438115B28D8249A00D0348A /* PickerUsage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0438115A28D8249A00D0348A /* PickerUsage.swift */; };
 		0439569D28A163E9009E1984 /* TILApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439569C28A163E9009E1984 /* TILApp.swift */; };
 		0439569F28A163E9009E1984 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439569E28A163E9009E1984 /* ContentView.swift */; };
@@ -14,9 +15,14 @@
 		043956A428A163EB009E1984 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 043956A328A163EB009E1984 /* Preview Assets.xcassets */; };
 		043956B128A16D44009E1984 /* RichTextView in Frameworks */ = {isa = PBXBuildFile; productRef = 043956B028A16D44009E1984 /* RichTextView */; };
 		043956B328A16D6C009E1984 /* LatexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043956B228A16D6C009E1984 /* LatexView.swift */; };
+		0456D5D328DD43C900235408 /* SessionUsage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0456D5D228DD43C900235408 /* SessionUsage.swift */; };
+		0456D5D528DD43D400235408 /* ThreadUsage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0456D5D428DD43D400235408 /* ThreadUsage.swift */; };
+		04C19AF028EC1F8500E884CC /* GPSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C19AEF28EC1F8500E884CC /* GPSView.swift */; };
+		04C19AF228EC1F9000E884CC /* GPSUsage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C19AF128EC1F9000E884CC /* GPSUsage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		042C4B3828EE854E0039021A /* GPSMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPSMapView.swift; sourceTree = "<group>"; };
 		0438115A28D8249A00D0348A /* PickerUsage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerUsage.swift; sourceTree = "<group>"; };
 		0439569928A163E9009E1984 /* TIL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TIL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0439569C28A163E9009E1984 /* TILApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TILApp.swift; sourceTree = "<group>"; };
@@ -24,6 +30,11 @@
 		043956A028A163EB009E1984 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		043956A328A163EB009E1984 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		043956B228A16D6C009E1984 /* LatexView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatexView.swift; sourceTree = "<group>"; };
+		0456D5D228DD43C900235408 /* SessionUsage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionUsage.swift; sourceTree = "<group>"; };
+		0456D5D428DD43D400235408 /* ThreadUsage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadUsage.swift; sourceTree = "<group>"; };
+		04C19AEF28EC1F8500E884CC /* GPSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPSView.swift; sourceTree = "<group>"; };
+		04C19AF128EC1F9000E884CC /* GPSUsage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPSUsage.swift; sourceTree = "<group>"; };
+		04C19AF328EC22A900E884CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +76,10 @@
 		0439569B28A163E9009E1984 /* TIL */ = {
 			isa = PBXGroup;
 			children = (
+				04C19AF328EC22A900E884CC /* Info.plist */,
+				04C19AEE28EC1F6E00E884CC /* GPS */,
+				0456D5D128DD43B300235408 /* Networking */,
+				0456D5CE28DD439100235408 /* Basic */,
 				0438115928D8247600D0348A /* SimpleUsage_View */,
 				043956AA28A16499009E1984 /* References */,
 				043956B428A16D77009E1984 /* Testing */,
@@ -97,6 +112,32 @@
 				043956B228A16D6C009E1984 /* LatexView.swift */,
 			);
 			path = Testing;
+			sourceTree = "<group>";
+		};
+		0456D5CE28DD439100235408 /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				0456D5D428DD43D400235408 /* ThreadUsage.swift */,
+			);
+			path = Basic;
+			sourceTree = "<group>";
+		};
+		0456D5D128DD43B300235408 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				0456D5D228DD43C900235408 /* SessionUsage.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		04C19AEE28EC1F6E00E884CC /* GPS */ = {
+			isa = PBXGroup;
+			children = (
+				04C19AEF28EC1F8500E884CC /* GPSView.swift */,
+				04C19AF128EC1F9000E884CC /* GPSUsage.swift */,
+				042C4B3828EE854E0039021A /* GPSMapView.swift */,
+			);
+			path = GPS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,8 +216,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04C19AF228EC1F9000E884CC /* GPSUsage.swift in Sources */,
 				043956B328A16D6C009E1984 /* LatexView.swift in Sources */,
+				0456D5D528DD43D400235408 /* ThreadUsage.swift in Sources */,
+				04C19AF028EC1F8500E884CC /* GPSView.swift in Sources */,
+				0456D5D328DD43C900235408 /* SessionUsage.swift in Sources */,
 				0439569F28A163E9009E1984 /* ContentView.swift in Sources */,
+				042C4B3928EE854E0039021A /* GPSMapView.swift in Sources */,
 				0439569D28A163E9009E1984 /* TILApp.swift in Sources */,
 				0438115B28D8249A00D0348A /* PickerUsage.swift in Sources */,
 			);
@@ -310,6 +356,7 @@
 				DEVELOPMENT_TEAM = B4ZYGG8NV4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TIL/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -339,6 +386,7 @@
 				DEVELOPMENT_TEAM = B4ZYGG8NV4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TIL/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
